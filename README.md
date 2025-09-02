@@ -16,5 +16,5 @@ Built using **HTML, CSS, and JavaScript**.
 - JavaScript (DOM manipulation, game logic, localStorage)
 
 ▶️ Live Demo
-[Play Here](https://your-username.github.io/tic-tac-toe-game/)  
+[Play Here]( https://nishanthini08.github.io/Tic-Tac-Toe-Game/)  
 
