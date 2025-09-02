@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img src="Untitled design.png" alt="Game Logo" class="logo"/>
+
+    <h1>Tic Tac Toe</h1>
+    
+    <div class="mode-buttons">
+      <button id="mode2p">2 Players</button>
+      <button id="modeAI">vs Computer</button>
+    </div>
+
+    <div class="player-names">
+      <input id="playerX" placeholder="Player X" />
+      <input id="playerO" placeholder="Player O" />
+    </div>
+
+    <div id="board" class="board"></div>
+    
+    <div class="status" id="status"></div>
+    
+    <div class="controls">
+      <button id="resetGame">Reset Game</button>
+      <button id="resetCoins">Reset Coins</button>
+      <button id="toggleTheme">Dark Mode</button>
+    </div>
+
+    <div class="coins">
+      Coins: <span id="coinCount">0</span>
+    </div>
+
+    <button id="instructionsBtn">How to Play</button>
+
+    <div class="modal" id="instructionsModal">
+      <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <div id="howToPlayText"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
